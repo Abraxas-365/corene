@@ -4,13 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
-
 
 / {
     behaviors {
@@ -38,10 +36,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB                    &kp Q  &kp W         &kp E  &kp R             &kp T        &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
-  &kp ESC                    &kp A  &kp S         &kp D  &kp F             &kp G        &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
-&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X         &kp C  &kp V             &kp B        &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
-                                           &kp LEFT_ALT  &mo 1  &kp LEFT_COMMAND    &kp SPACE  &mo 2  &kp LEFT_COMMAND
+  &kp TAB                    &kp Q  &kp W  &kp E  &kp R             &kp T        &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
+  &kp ESC                    &kp A  &kp S  &kp D  &kp F             &kp G        &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
+&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X  &kp C  &kp V             &kp B        &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
+                                           &mo 3  &mo 1  &kp LEFT_COMMAND    &kp SPACE  &mo 2  &kp LEFT_COMMAND
             >;
         };
 
@@ -77,10 +75,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp RA(KP_NUMBER_1)  &kp LA(KP_NUMBER_2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)  &trans
+&trans               &trans               &trans   &kp LA(D)   &kp LA(F)      &trans     &kp LA(H)   &kp LA(J)   &kp LA(K)   &kp LA(L)      &trans  &trans
+&trans               &trans               &trans      &trans      &trans      &trans        &trans      &trans      &trans      &trans      &trans  &trans
+                                                      &trans      &trans      &trans        &trans      &trans      &trans
             >;
         };
     };
