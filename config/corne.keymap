@@ -76,7 +76,7 @@
         layer_3 {
             bindings = <
 &trans  &kp RA(NUMBER_1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)         &trans
-&trans            &trans      &trans   &kp LA(D)   &kp LA(F)      &trans     &kp LA(H)   &kp LA(J)   &kp LA(K)   &kp LA(L)      &trans  &kp LA(ENTER)
+&trans            &trans      &trans   &kp LA(D)   &kp LA(F)   &kp LA(E)     &kp LA(H)   &kp LA(J)   &kp LA(K)   &kp LA(L)      &trans  &kp LA(ENTER)
 &trans            &trans      &trans   &kp LA(C)      &trans      &trans        &trans      &trans      &trans      &trans      &trans         &trans
                                           &trans      &trans      &trans        &trans      &trans      &trans
             >;
