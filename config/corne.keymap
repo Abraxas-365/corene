@@ -53,7 +53,7 @@
    &kp TAB                            &kp N1           &kp N2           &kp N3        &kp N4        &kp N5       &kp N6         &kp N7            &kp N8     &kp N9  &kp N0  &kp BSPC
 &bt BT_CLR                      &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &kp LEFT       &kp DOWN            &kp UP  &kp RIGHT  &trans    &trans
  &kp LSHFT  &rgb_ug RGB_COLOR_HSB(185,99,60)  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI        &trans        &trans    &kp LG(C)      &kp LG(V)            &trans     &trans  &trans    &trans
-                                                                         &none        &trans     &kp SPACE      &kp RET  &kp RIGHT_ALT  &kp LEFT_COMMAND
+                                                                         &none        &trans     &kp SPACE    &kp LC(D)  &kp RIGHT_ALT  &kp LEFT_COMMAND
             >;
         };
 
@@ -68,7 +68,7 @@
 &kp GRAVE            &kp SQT  &kp PERCENT        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp LS(PIPE)    &kp MINUS   &kp AMPS  &kp KP_MULTIPLY             &none      &none   &kp BSPC
   &kp ESC  &kp DOUBLE_QUOTES   &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp LS(TILDE)     &kp SEMI  &kp EQUAL         &kp PLUS         &kp MINUS  &kp COLON    &kp SQT
  &kp BSLH    &kp EXCLAMATION    &kp POUND              &kp LBKT      &kp RIGHT_BRACKET          &trans    &kp UNDER   &kp PLUS    &kp LESS_THAN  &kp GREATER_THAN  &kp QMARK  &kp TILDE
-                                                       &kp LGUI                 &trans  &kp UNDERSCORE      &kp RET     &trans         &kp RALT
+                                                        &kp TAB          &kp BACKSPACE  &kp UNDERSCORE      &kp RET     &trans         &kp RALT
             >;
         };
 
