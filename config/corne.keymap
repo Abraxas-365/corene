@@ -37,9 +37,14 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        escc {
             bindings = <&kp ESCAPE>;
             key-positions = <37 39>;
+        };
+
+        ctra {
+            bindings = <&trans>;
+            key-positions = <19 16>;
         };
     };
 
@@ -93,10 +98,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp RA(NUMBER_1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)         &trans
-&trans            &trans      &trans   &kp LA(D)   &kp LA(F)   &kp LA(E)     &kp LA(H)   &kp LA(J)   &kp LA(K)   &kp LA(L)      &trans  &kp LA(ENTER)
-&trans            &trans      &trans   &kp LA(C)      &trans      &trans        &trans      &trans      &trans      &trans      &trans         &trans
-                                          &trans      &trans      &trans    &new_macro   &kp LC(A)      &trans
+&trans  &kp RA(NUMBER_1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &kp LA(N6)   &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)         &trans
+&trans            &trans      &trans   &kp LA(D)   &kp LA(F)   &kp LA(E)     &kp LA(H)    &kp LA(J)   &kp LA(K)   &kp LA(L)      &trans  &kp LA(ENTER)
+&trans            &trans      &trans   &kp LA(C)      &trans      &trans        &trans       &trans      &trans      &trans      &trans         &trans
+                                          &trans      &trans      &trans    &new_macro  &kp LA(TAB)      &trans
             >;
         };
 
