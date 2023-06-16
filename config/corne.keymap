@@ -39,7 +39,7 @@
 
         new_combo {
             bindings = <&kp ESCAPE>;
-            key-positions = <37 40>;
+            key-positions = <37 39>;
         };
     };
 
