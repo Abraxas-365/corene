@@ -32,11 +32,14 @@
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp TAB>;
         };
-        tmuxT: tmuxT {
-            compatible = "zmk,behavior-macro";
-            label = "TMUXT";
-            #binding-cells = <0>;
-            bindings = <&none>;
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <37 40>;
         };
     };
 
@@ -51,10 +54,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB                    &kp Q  &kp W  &kp E  &kp R             &kp T        &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
-  &kp ESC                    &kp A  &kp S  &kp D  &kp F             &kp G        &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
-&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X  &kp C  &kp V             &kp B        &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
-                                           &mo 3  &mo 1  &kp LEFT_COMMAND    &kp SPACE  &mo 2  &kp LEFT_COMMAND
+  &kp TAB                    &kp Q  &kp W  &kp E  &kp R          &kp T        &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
+  &kp ESC                    &kp A  &kp S  &kp D  &kp F          &kp G        &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
+&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X  &kp C  &kp V          &kp B        &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
+                                           &mo 3  &mo 1  &kp BACKSPACE    &kp SPACE  &mo 2  &kp LEFT_COMMAND
             >;
         };
 
@@ -93,7 +96,7 @@
 &trans  &kp RA(NUMBER_1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)         &trans
 &trans            &trans      &trans   &kp LA(D)   &kp LA(F)   &kp LA(E)     &kp LA(H)   &kp LA(J)   &kp LA(K)   &kp LA(L)      &trans  &kp LA(ENTER)
 &trans            &trans      &trans   &kp LA(C)      &trans      &trans        &trans      &trans      &trans      &trans      &trans         &trans
-                                          &trans      &trans      &trans        &tmuxT   &kp LC(A)      &trans
+                                          &trans      &trans      &trans    &new_macro   &kp LC(A)      &trans
             >;
         };
 
