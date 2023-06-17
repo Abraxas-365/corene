@@ -78,10 +78,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB                    &kp Q  &kp W  &kp E  &kp R                &kp T              &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
-  &kp ESC                    &kp A  &kp S  &kp D  &kp F                &kp G              &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
-&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X  &kp C  &kp V                &kp B              &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
-                                           &mo 3  &mo 1  &kpmodr 5 BACKSPACE    &kp_mod 4 SPACE  &mo 2  &kp LEFT_COMMAND
+  &kp TAB                    &kp Q  &kp W                      &kp E  &kp R                &kp T              &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
+  &kp ESC                    &kp A  &kp S                      &kp D  &kp F                &kp G              &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
+&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X                      &kp C  &kp V                &kp B              &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
+                                           &kp LA(RS(RIGHT_CONTROL))  &mo 1  &kpmodr 4 BACKSPACE    &kp_mod 3 SPACE  &mo 2  &kp LEFT_COMMAND
             >;
         };
 
@@ -93,10 +93,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-   &kp TAB                            &kp N1           &kp N2           &kp N3        &kp N4        &kp N5           &kp N6     &kp N7  &kp N8     &kp N9             &kp N0  &kp BSPC
-&bt BT_CLR                      &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT             &trans    &trans
- &kp LSHFT  &rgb_ug RGB_COLOR_HSB(185,99,60)  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI        &trans        &trans           &trans     &trans  &trans     &trans  &ext_power EP_TOG    &trans
-                                                                         &none        &trans     &kp SPACE    &kp BACKSPACE  &kp LC(D)  &trans
+   &kp TAB                            &kp N1           &kp N2           &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8     &kp N9             &kp N0  &kp BSPC
+&bt BT_CLR                      &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT             &trans    &trans
+ &kp LSHFT  &rgb_ug RGB_COLOR_HSB(185,99,60)  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI        &trans        &trans          &trans     &trans  &trans     &trans  &ext_power EP_TOG    &trans
+                                                                         &none        &trans     &kp SPACE    &kp LEFT_ALT  &kp LC(D)  &trans
             >;
         };
 
@@ -115,19 +115,10 @@
             >;
         };
 
-        layer_3 {
-            bindings = <
-&trans  &kp RA(NUMBER_1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)    &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)    &kp LA(N0)         &trans
-&trans            &trans   &kp LA(S)   &kp LA(D)   &kp LA(F)   &kp LA(E)     &kp LA(H)   &kp LA(J)   &kp LA(K)   &kp LA(L)  &kp LEFT_ALT  &kp LA(ENTER)
-&trans            &trans      &trans   &kp LA(C)      &trans      &trans        &trans      &trans      &trans      &trans        &trans         &trans
-                                          &trans      &trans      &trans    &new_macro     &kp TAB      &trans
-            >;
-        };
-
         layer_4 {
             bindings = <
 &trans  &trans  &trans        &trans   &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans       &kp TAB  &kp TAB     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans  &kp TAB     &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans     &kp LC(C)   &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &kp LEFT_ALT  &kp ESC  &kp ENTER    &trans  &trans  &trans
             >;
