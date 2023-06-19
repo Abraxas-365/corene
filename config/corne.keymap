@@ -53,8 +53,8 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-unless-interrupted";
-            tapping-term-ms = <160>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
         };
     };
 
