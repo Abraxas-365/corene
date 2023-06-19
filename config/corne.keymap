@@ -88,10 +88,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB                    &kp Q  &kp W         &kp E               &kp R            &kp T              &kp Y                   &kp U             &kp I    &kp O                        &kp P         &kp BSPC
-  &kp ESC                    &kp A  &kp S         &kp D  &kp_shift RSHIFT F            &kp G              &kp H  &kp_shift LEFT_SHIFT J             &kp K    &kp L                     &kp SEMI        &kp ENTER
-&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X         &kp C               &kp V            &kp B              &kp N                   &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
-                                           &kp LEFT_ALT               &mo 1  &kpmodr 4 ENTER    &kp_mod 3 SPACE                   &mo 2  &kp LEFT_COMMAND
+  &kp TAB                    &kp Q  &kp W         &kp E        &kp R            &kp T              &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
+  &kp ESC                    &kp A  &kp S         &kp D  &kp_mod 4 F            &kp G              &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
+&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X         &kp C        &kp V            &kp B              &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
+                                           &kp LEFT_ALT        &mo 1  &kpmodr 4 ENTER    &kp_mod 3 SPACE  &mo 2  &kp LEFT_COMMAND
             >;
         };
 
@@ -139,7 +139,7 @@
 &trans  &trans    &trans  &trans  &trans  &kp LG(T)    &kp LG(C)         &trans  &trans  &trans  &kp RG(V)  &trans
 &trans  &trans  &split_h  &trans  &trans     &trans       &trans  &kp BACKSPACE  &trans  &trans     &trans  &trans
 &trans  &trans    &trans  &trans  &trans     &trans       &trans         &trans  &trans  &trans     &trans  &trans
-                          &trans  &trans     &trans       &trans     &new_macro  &trans
+                          &trans  &trans     &trans      &kp TAB     &new_macro  &trans
             >;
         };
     };
