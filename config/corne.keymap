@@ -88,10 +88,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB                    &kp Q  &kp W         &kp E                   &kp R            &kp T        &kp Y                    &kp U             &kp I    &kp O                        &kp P         &kp BSPC
-  &kp ESC                    &kp A  &kp S         &kp D                   &kp F            &kp G        &kp H                    &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
-&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X         &kp C  &kp_shift LEFT_SHIFT V            &kp B        &kp N  &kp_shift RIGHT_SHIFT M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
-                                           &kp LEFT_ALT                   &mo 1  &kpmodr 3 ENTER    &kp SPACE                    &mo 2  &kp LEFT_COMMAND
+  &kp TAB                    &kp Q  &kp W         &kp E  &kp R            &kp T        &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
+  &kp ESC                    &kp A  &kp S         &kp D  &kp F            &kp G        &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
+&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X         &kp C  &kp V            &kp B        &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
+                                           &kp LEFT_ALT  &mo 1  &kpmodr 3 ENTER    &kp SPACE  &mo 2  &kp LEFT_COMMAND
             >;
         };
 
@@ -127,10 +127,10 @@
 
         layer_5 {
             bindings = <
-&trans     &trans    &trans  &trans  &trans  &kp LG(T)    &kp LG(C)         &trans  &kp LS(I)   &trans  &kp RG(V)  &trans
-&trans  &kp LS(A)  &split_h  &trans  &trans     &trans       &trans  &kp BACKSPACE     &trans  &kp ESC     &trans  &trans
-&trans     &trans    &trans  &trans  &trans     &trans       &trans         &trans     &trans   &trans     &trans  &trans
-                             &trans  &trans     &trans      &kp TAB     &new_macro     &trans
+&trans     &trans    &trans  &trans  &trans  &kp LG(T)         &kp LG(C)        &trans       &kp LS(I)           &trans  &kp RG(V)  &trans
+&trans  &kp LS(A)  &split_h  &trans  &trans     &trans    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans  &trans
+&trans     &trans    &trans  &trans  &trans     &trans            &trans        &trans          &trans           &trans     &trans  &trans
+                             &trans  &trans     &trans           &kp TAB    &new_macro          &trans
             >;
         };
     };
