@@ -127,10 +127,10 @@
 
         layer_5 {
             bindings = <
-&trans     &trans    &trans  &trans  &trans  &kp LG(T)         &kp LG(C)        &trans       &kp LS(I)           &trans  &kp RG(V)  &trans
-&trans  &kp LS(A)  &split_h  &trans  &trans     &trans    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans  &trans
-&trans     &trans    &trans  &trans  &trans     &trans            &trans        &trans          &trans           &trans     &trans  &trans
-                             &trans  &trans     &trans           &kp TAB    &new_macro          &trans
+&trans     &trans    &trans  &trans  &trans  &kp LG(T)         &kp LG(C)          &trans     &kp LS(I)           &trans  &kp RG(V)  &trans
+&trans  &kp LS(A)  &split_h  &trans  &trans     &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW     &trans  &trans
+&trans     &trans    &trans  &trans  &trans     &trans            &trans          &trans        &trans           &trans     &trans  &trans
+                             &trans  &trans     &trans           &kp TAB      &new_macro        &trans
             >;
         };
     };
