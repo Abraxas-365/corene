@@ -103,10 +103,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-   &kp TAB                            &kp N1           &kp N2           &kp N3  &kp N4  &kp N5        &kp N6         &kp N7         &kp N8  &kp N9             &kp N0  &kp BSPC
-&bt BT_CLR                      &bt BT_SEL 0           &trans           &trans  &trans  &trans        &trans         &trans         &trans  &trans             &trans    &trans
- &kp LSHFT  &rgb_ug RGB_COLOR_HSB(185,99,60)  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &trans  &trans    &caps_word         &trans         &trans  &trans  &ext_power EP_TOG    &trans
-                                                                         &none  &trans  &trans       &kp TAB  &kp BACKSPACE  &kp RIGHT_ALT
+   &kp TAB                            &kp N1           &kp N2           &kp N3  &kp N4  &kp N5        &kp N6          &kp N7         &kp N8           &kp N9             &kp N0  &kp BSPC
+&bt BT_CLR                      &bt BT_SEL 0           &trans           &trans  &trans  &trans      &kp LEFT  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW             &trans    &trans
+ &kp LSHFT  &rgb_ug RGB_COLOR_HSB(185,99,60)  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &trans  &trans    &caps_word          &trans         &trans           &trans  &ext_power EP_TOG    &trans
+                                                                         &none  &trans  &trans       &kp TAB       &kp RC(D)  &kp RIGHT_ALT
             >;
         };
 
@@ -130,7 +130,7 @@
 &trans     &trans    &trans  &trans  &trans  &kp LG(T)         &kp LG(C)          &trans     &kp LS(I)           &trans  &kp RG(V)  &trans
 &trans  &kp LS(A)  &split_h  &trans  &trans     &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW     &trans  &trans
 &trans     &trans    &trans  &trans  &trans     &trans            &trans          &trans        &trans           &trans     &trans  &trans
-                             &trans  &trans     &trans           &kp TAB       &kp LC(D)        &trans
+                             &trans  &trans     &trans           &kp TAB   &kp BACKSPACE        &trans
             >;
         };
     };
