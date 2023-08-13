@@ -86,10 +86,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp TAB                    &kp Q  &kp W         &kp E  &kp R          &kp T        &kp Y  &kp U             &kp I    &kp O                        &kp P         &kp BSPC
-  &kp ESC                    &kp A  &kp S         &kp D  &kp F          &kp G        &kp H  &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
-&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X         &kp C  &kp V          &kp B        &kp N  &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
-                                           &kp LEFT_ALT  &mo 1  &kpmodr 3 RET    &kp SPACE  &mo 2  &kp LEFT_COMMAND
+  &kp TAB                    &kp Q  &kp W         &kp E          &kp R          &kp T        &kp Y             &kp U             &kp I    &kp O                        &kp P         &kp BSPC
+  &kp ESC                    &kp A  &kp S         &kp D          &kp F          &kp G        &kp H             &kp J             &kp K    &kp L                     &kp SEMI        &kp ENTER
+&kp LSHFT  &holdtab LEFT_CONTROL Z  &kp X         &kp C          &kp V          &kp B        &kp N             &kp M         &kp COMMA  &kp DOT  &holdtab RIGHT_CONTROL FSLH  &kp RIGHT_SHIFT
+                                           &kp LEFT_ALT  &kp_mod 1 ESC  &kpmodr 3 TAB    &kp SPACE  &kp_mod 2 RETURN  &kp LEFT_COMMAND
             >;
         };
 
@@ -101,10 +101,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB            &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6          &kp N7         &kp N8           &kp N9     &kp N0  &kp BSPC
-   &trans  &kp LA(NUMBER_1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)      &kp LEFT  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp LC(D)    &trans
-&kp LSHFT        &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)    &caps_word          &trans         &trans           &trans     &trans    &trans
-                                              &none      &trans      &trans       &kp TAB        &kp BSPC  &kp RIGHT_ALT
+  &kp TAB            &kp N1      &kp N2      &kp N3      &kp N4      &kp N5           &kp N6          &kp N7         &kp N8           &kp N9     &kp N0  &kp BSPC
+   &trans  &kp LA(NUMBER_1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)         &kp LEFT  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp LC(D)    &trans
+&kp LSHFT        &kp LA(N6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(N0)       &caps_word          &trans         &trans           &trans     &trans    &trans
+                                              &none      &trans      &trans    &kp BACKSPACE  &sk LEFT_SHIFT  &kp RIGHT_ALT
             >;
         };
 
