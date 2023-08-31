@@ -124,7 +124,7 @@
 &kp GRAVE    &kp EXCLAMATION  &kp PERCENT        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp LS(PIPE)     &none  &kp AMPS  &kp KP_MULTIPLY         &kp MINUS  &kp EQUAL   &kp BSPC
   &kp ESC  &kp DOUBLE_QUOTES   &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp TILDE    &trans    &kp LT           &kp GT          &kp PLUS  &kp COLON    &kp SQT
  &kp BSLH     &kp APOSTROPHE    &kp POUND              &kp LBKT      &kp RIGHT_BRACKET          &trans     &none     &none    &kp LESS_THAN  &kp GREATER_THAN  &kp QMARK  &kp TILDE
-                                               &kp LEFT_COMMAND                 &trans  &kp UNDERSCORE    &trans    &trans         &kp RALT
+                                               &kp LEFT_COMMAND         &sk LEFT_SHIFT  &kp UNDERSCORE    &trans    &trans         &kp RALT
             >;
         };
 
