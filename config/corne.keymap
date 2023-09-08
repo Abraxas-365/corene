@@ -105,6 +105,11 @@
 
     combos {
         compatible = "zmk,combos";
+
+        esc {
+            bindings = <&none>;
+            key-positions = <40 12>;
+        };
     };
 
     keymap {
