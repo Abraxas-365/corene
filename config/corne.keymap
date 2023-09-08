@@ -89,12 +89,6 @@
     };
 
     macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            label = "NEW_MACRO";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp TAB>;
-        };
         split_h: split_h {
             compatible = "zmk,behavior-macro";
             label = "SPLIT_H";
@@ -156,7 +150,7 @@
 &none  &kp EXCLAMATION    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(PIPE)      &kp EXCLAMATION  &kp AMPS  &kp KP_MULTIPLY  &kp MINUS             &kp EQUAL  &kp BSPC
 &none  &kp DOUBLE_QUOTES  &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &trans           &kp LT    &kp GT           &kp PLUS              &kp COLON  &kp SQT
 &none  &kp APOSTROPHE     &kp POUND    &kp LBKT              &kp RIGHT_BRACKET      &kp GRAVE         &none            &none     &trans           &kp NON_US_BACKSLASH  &kp QMARK  &kp TILDE
-                                       &kp LEFT_COMMAND      &kp DOUBLE_QUOTES      &kp UNDERSCORE    &trans           &trans    &kp RALT
+                                       &kp LEFT_COMMAND      &none                  &kp UNDERSCORE    &trans           &trans    &kp RALT
             >;
         };
 
