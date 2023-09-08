@@ -107,7 +107,7 @@
         compatible = "zmk,combos";
 
         esc {
-            bindings = <&none>;
+            bindings = <&kp ESC>;
             key-positions = <40 12>;
         };
     };
