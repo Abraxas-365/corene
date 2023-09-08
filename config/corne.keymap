@@ -83,8 +83,8 @@
                 <&sk>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <100>;
+            flavor = "balanced";
         };
     };
 
