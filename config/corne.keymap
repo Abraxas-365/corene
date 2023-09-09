@@ -99,6 +99,11 @@
 
     combos {
         compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <37 40>;
+        };
     };
 
     keymap {
