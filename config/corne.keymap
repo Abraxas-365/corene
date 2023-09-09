@@ -105,6 +105,12 @@
             key-positions = <40 13>;
             timeout-ms = <150>;
         };
+
+        escc {
+            bindings = <&kp ESC>;
+            key-positions = <37 40>;
+            timeout-ms = <100>;
+        };
     };
 
     keymap {
