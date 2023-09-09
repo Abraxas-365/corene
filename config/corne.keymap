@@ -102,7 +102,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <40 12>;
+            key-positions = <40 13>;
         };
     };
 
