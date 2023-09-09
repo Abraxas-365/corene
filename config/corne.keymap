@@ -111,6 +111,12 @@
             key-positions = <37 40>;
             timeout-ms = <100>;
         };
+
+        enter {
+            bindings = <&kp RET>;
+            key-positions = <37 22>;
+            timeout-ms = <180>;
+        };
     };
 
     keymap {
