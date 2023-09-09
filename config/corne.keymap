@@ -99,24 +99,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <40 13>;
-            timeout-ms = <180>;
-        };
-
-        escc {
-            bindings = <&kp ESC>;
-            key-positions = <37 40>;
-            timeout-ms = <100>;
-        };
-
-        enter {
-            bindings = <&kp RET>;
-            key-positions = <37 22>;
-            timeout-ms = <180>;
-        };
     };
 
     keymap {
@@ -163,7 +145,7 @@
 &none  &kp EXCLAMATION    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(PIPE)      &kp EXCLAMATION  &kp AMPS  &kp KP_MULTIPLY  &kp MINUS             &kp EQUAL  &kp BSPC
 &none  &kp DOUBLE_QUOTES  &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &trans           &kp LT    &kp GT           &kp PLUS              &kp COLON  &kp SQT
 &none  &kp APOSTROPHE     &kp POUND    &kp LBKT              &kp RIGHT_BRACKET      &kp GRAVE         &none            &none     &trans           &kp NON_US_BACKSLASH  &kp QMARK  &kp TILDE
-                                       &kp LEFT_COMMAND      &none                  &kp UNDERSCORE    &trans           &trans    &kp RALT
+                                       &kp LEFT_COMMAND      &kp ESC                &kp UNDERSCORE    &trans           &trans    &kp RALT
             >;
         };
 
