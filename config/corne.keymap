@@ -147,9 +147,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCLAMATION    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(PIPE)      &kp EXCLAMATION  &kp AMPS  &kp KP_MULTIPLY  &kp MINUS             &kp EQUAL  &kp BSPC
-&none  &kp DOUBLE_QUOTES  &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &trans           &kp LT    &kp GT           &kp PLUS              &kp COLON  &kp SQT
-&none  &kp APOSTROPHE     &kp POUND    &kp LBKT              &kp RIGHT_BRACKET      &kp GRAVE         &none            &none     &trans           &kp NON_US_BACKSLASH  &kp QMARK  &kp TILDE
+&none  &kp EXCLAMATION    &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(PIPE)      &kp EXCLAMATION  &kp AMPS  &kp KP_MULTIPLY  &kp MINUS      &kp EQUAL  &kp BSPC
+&none  &kp DOUBLE_QUOTES  &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &trans           &kp LT    &kp GT           &kp PLUS       &kp COLON  &kp SQT
+&none  &kp APOSTROPHE     &kp POUND    &kp LBKT              &kp RIGHT_BRACKET      &kp GRAVE         &none            &none     &trans           &kp BACKSLASH  &kp QMARK  &kp TILDE
                                        &kp LEFT_COMMAND      &kp ESC                &kp UNDERSCORE    &trans           &trans    &kp RALT
             >;
         };
