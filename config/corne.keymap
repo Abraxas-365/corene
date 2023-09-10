@@ -102,7 +102,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <0 40>;
+            key-positions = <40 1>;
             timeout-ms = <120>;
         };
     };
