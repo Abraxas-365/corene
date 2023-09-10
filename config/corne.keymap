@@ -103,6 +103,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <37 40>;
+            timeout-ms = <100>;
         };
     };
 
