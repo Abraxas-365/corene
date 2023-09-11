@@ -101,8 +101,8 @@
         compatible = "zmk,combos";
 
         esc {
-            bindings = <&kp ESC>;
-            key-positions = <40 1>;
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 19>;
             timeout-ms = <120>;
         };
 
