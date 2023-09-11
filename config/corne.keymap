@@ -100,7 +100,7 @@
     combos {
         compatible = "zmk,combos";
 
-        esc {
+        del {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 19>;
             timeout-ms = <120>;
@@ -109,7 +109,7 @@
         esc2 {
             bindings = <&kp ESC>;
             key-positions = <19 20>;
-            timeout-ms = <150>;
+            timeout-ms = <100>;
         };
     };
 
