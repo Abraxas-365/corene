@@ -101,7 +101,7 @@
         compatible = "zmk,combos";
 
         del {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp RETURN>;
             key-positions = <16 19>;
             timeout-ms = <120>;
         };
