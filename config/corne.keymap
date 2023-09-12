@@ -105,12 +105,6 @@
             key-positions = <16 19>;
             timeout-ms = <120>;
         };
-
-        esc2 {
-            bindings = <&kp ESC>;
-            key-positions = <19 20>;
-            timeout-ms = <10>;
-        };
     };
 
     keymap {
