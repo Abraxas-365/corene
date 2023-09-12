@@ -99,12 +99,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        del {
-            bindings = <&kp RETURN>;
-            key-positions = <16 19>;
-            timeout-ms = <120>;
-        };
     };
 
     keymap {
@@ -118,10 +112,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                  &kp W  &kp E                            &kp R          &kp T              &kp Y      &kp U          &kp I             &kp O    &kp P                     &none
-&none  &kp A                  &kp S  &kp D                            &kp F          &kp G              &kp H      &kp J          &kp K             &kp L    &kp SEMI                  &none
-&none  &holdtab LEFT_SHIFT Z  &kp X  &kp C                            &kp V          &kp B              &kp N      &kp M          &kp COMMA         &kp DOT  &holdtab LEFT_SHIFT FSLH  &none
-                                     &kp_stiky LEFT_CONTROL LEFT_ALT  &kpmodr 1 ESC  &kpmodr 3 SPACE    &kp SPACE  &kpmodr 2 RET  &kp LEFT_CONTROL
+&none  &kp Q                  &kp W  &kp E                            &kp R          &kp T              &kp Y    &kp U                &kp I             &kp O    &kp P                     &none
+&none  &kp A                  &kp S  &kp D                            &kp F          &kp G              &kp H    &kp J                &kp K             &kp L    &kp SEMI                  &none
+&none  &holdtab LEFT_SHIFT Z  &kp X  &kp C                            &kp V          &kp B              &kp N    &kp M                &kp COMMA         &kp DOT  &holdtab LEFT_SHIFT FSLH  &none
+                                     &kp_stiky LEFT_CONTROL LEFT_ALT  &kpmodr 1 ESC  &kpmodr 3 SPACE    &kp RET  &kpmodr 2 BACKSPACE  &kp LEFT_CONTROL
             >;
         };
 
