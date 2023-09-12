@@ -109,7 +109,7 @@
         esc2 {
             bindings = <&kp ESC>;
             key-positions = <19 20>;
-            timeout-ms = <100>;
+            timeout-ms = <10>;
         };
     };
 
