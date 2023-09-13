@@ -114,7 +114,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <40 1>;
-            timeout-ms = <200>;
+            timeout-ms = <250>;
         };
     };
 
