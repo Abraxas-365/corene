@@ -146,7 +146,7 @@
             bindings = <
 &kp TAB    &kp N1   &kp N2  &kp N3            &kp N4         &kp N5    &kp N6      &kp N7          &kp N8            &kp N9           &kp N0     &kp BSPC
 &trans     &kp ESC  &trans  &trans            &kp BACKSPACE  &trans    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &kp LC(D)  &trans
-&kp LSHFT  &trans   &trans  &trans            &trans         &trans    &caps_word  &kp LEFT_ALT    &kp LEFT_COMMAND  &trans           &trans     &trans
+&kp LSHFT  &trans   &trans  &trans            &trans         &trans    &caps_word  &sk LEFT_ALT    &sk LEFT_COMMAND  &trans           &trans     &trans
                             &kp LEFT_CONTROL  &trans         &trans    &kp TAB     &kp BACKSPACE   &kp LEFT_COMMAND
             >;
         };
