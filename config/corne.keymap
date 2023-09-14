@@ -129,10 +129,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                  &kp W  &kp E             &kp R          &kp T            &kp Y      &kp U                &kp I             &kp O    &kp P                     &none
-&none  &kp A                  &kp S  &kp D             &kpmodr 3 F    &kp G            &kp H      &kp J                &kp K             &kp L    &kp SEMICOLON             &none
-&none  &holdtab LEFT_SHIFT Z  &kp X  &kp C             &kp V          &kp B            &kp N      &kp M                &kp COMMA         &kp DOT  &holdtab LEFT_SHIFT FSLH  &none
-                                     &kp LEFT_CONTROL  &kpmodr 1 TAB  &kpmodr 3 RET    &kp SPACE  &kpmodr 2 BACKSPACE  &kp LEFT_CONTROL
+&none  &kp Q                  &kp W  &kp E             &kp R          &kp T            &kp Y      &kp U  &kp I             &kp O    &kp P                     &none
+&none  &kp A                  &kp S  &kp D             &kpmodr 4 F    &kp G            &kp H      &kp J  &kp K             &kp L    &kp SEMICOLON             &none
+&none  &holdtab LEFT_SHIFT Z  &kp X  &kp C             &kp V          &kp B            &kp N      &kp M  &kp COMMA         &kp DOT  &holdtab LEFT_SHIFT FSLH  &none
+                                     &kp LEFT_CONTROL  &kpmodr 1 TAB  &kpmodr 3 RET    &kp SPACE  &mo 2  &kp LEFT_CONTROL
             >;
         };
 
@@ -172,6 +172,15 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans       &trans     &trans     &trans     &trans     &kp BACKSPACE  &trans
 &trans      &trans        &trans        &trans  &trans  &trans       &trans     &trans     &trans     &trans     &trans         &trans
                                         &trans  &trans  &trans       &kp TAB    &kp LC(D)  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans         &trans   &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp BACKSPACE  &kp ESC  &trans  &kp LC(D)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans         &trans   &trans  &trans     &trans
+                        &trans  &trans  &trans    &kp LA(RETURN)  &kp TAB        &trans
             >;
         };
     };
