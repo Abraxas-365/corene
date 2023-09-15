@@ -110,12 +110,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <40 1>;
-            timeout-ms = <500>;
-        };
     };
 
     keymap {
