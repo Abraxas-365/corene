@@ -165,7 +165,7 @@
 &trans      &trans        &trans        &trans  &trans  &kp LG(T)    &kp LG(C)      &trans           &kp LC(I)     &kp LC(O)  &kp RG(V)      &trans
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans       &kp RG(LS(P))  &kp C_VOLUME_UP  &kp C_VOL_DN  &trans     &kp BACKSPACE  &trans
 &trans      &trans        &trans        &trans  &trans  &trans       &trans         &trans           &trans        &trans     &trans         &trans
-                                        &trans  &trans  &trans       &kp TAB        &kp LC(D)        &trans
+                                        &trans  &trans  &trans       &kp BACKSPACE  &kp BACKSPACE    &trans
             >;
         };
     };
