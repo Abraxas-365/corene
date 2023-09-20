@@ -19,7 +19,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-unless-interrupted";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
         };
         kp_mod: kp_mod {
             compatible = "zmk,behavior-hold-tap";
