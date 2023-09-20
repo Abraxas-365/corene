@@ -123,10 +123,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                    &kp W  &kp E           &kp R  &kp T            &kp Y      &kp U  &kp I           &kp O    &kp P                        &none
-&none  &kp A                    &kp S  &kp D           &kp F  &kp G            &kp H      &kp J  &kp K           &kp L    &kp SEMICOLON                &none
-&none  &holdtab LEFT_CONTROL Z  &kp X  &kp C           &kp V  &kp B            &kp N      &kp M  &kp COMMA       &kp DOT  &holdtab LEFT_CONTROL SLASH  &none
-                                       &sk LEFT_SHIFT  &mo 1  &kpmodr 3 RET    &kp SPACE  &mo 2  &sk LEFT_SHIFT
+&none  &kp Q                  &kp W  &kp E             &kp R  &kp T            &kp Y      &kp U  &kp I              &kp O    &kp P                      &none
+&none  &kp A                  &kp S  &kp D             &kp F  &kp G            &kp H      &kp J  &kp K              &kp L    &kp SEMICOLON              &none
+&none  &holdtab LEFT_SHIFT Z  &kp X  &kp C             &kp V  &kp B            &kp N      &kp M  &kp COMMA          &kp DOT  &holdtab LEFT_SHIFT SLASH  &none
+                                     &kp LEFT_CONTROL  &mo 1  &kpmodr 3 RET    &kp SPACE  &mo 2  &kp RIGHT_CONTROL
             >;
         };
 
