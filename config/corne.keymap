@@ -18,7 +18,7 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
             tapping-term-ms = <200>;
         };
         kp_mod: kp_mod {
