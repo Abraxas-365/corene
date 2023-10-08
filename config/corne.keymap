@@ -13,9 +13,7 @@
         holdtab: holdtab {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLDTAB";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "hold-preferred";
@@ -24,9 +22,7 @@
         kp_mod: kp_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_MOD";
-            bindings =
-                <&mo>,
-                <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -35,9 +31,7 @@
         kpmodr: kpmodr {
             compatible = "zmk,behavior-hold-tap";
             label = "KPMODR";
-            bindings =
-                <&mo>,
-                <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -46,9 +40,7 @@
         kp_shift: kp_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_SHIFT";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -57,9 +49,7 @@
         kp_lt: kp_lt {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_LT";
-            bindings =
-                <&lt>,
-                <&kp>;
+            bindings = <&lt>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -67,9 +57,7 @@
         stmo: stmo {
             compatible = "zmk,behavior-hold-tap";
             label = "STMO";
-            bindings =
-                <&mo>,
-                <&sk>;
+            bindings = <&mo>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
@@ -78,9 +66,7 @@
         kp_stiky: kp_stiky {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_STIKY";
-            bindings =
-                <&kp>,
-                <&sk>;
+            bindings = <&kp>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -89,9 +75,7 @@
         holdtab2: holdtab2 {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLDTAB2";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -153,8 +137,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp ESC            &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(PIPE)      &kp EXCLAMATION  &kp AMPS      &kp KP_MULTIPLY  &kp MINUS      &kp EQUAL  &kp BSPC
-&none  &kp DOUBLE_QUOTES  &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &trans           &kp LT        &kp GT           &kp PLUS       &kp COLON  &kp SQT
+&none  &kp DOUBLE_QUOTES  &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(PIPE)      &kp EXCLAMATION  &kp AMPS      &kp KP_MULTIPLY  &kp MINUS      &kp EQUAL  &kp BSPC
+&none  &kp ESC            &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &trans           &kp LT        &kp GT           &kp PLUS       &kp COLON  &kp SQT
 &none  &kp APOSTROPHE     &kp POUND    &kp LBKT              &kp RIGHT_BRACKET      &kp GRAVE         &none            &sk LEFT_ALT  &sk LEFT_GUI     &kp BACKSLASH  &kp QMARK  &kp TILDE
                                        &sk LEFT_ALT          &kp ESC                &kp UNDERSCORE    &trans           &trans        &kp RALT
             >;
