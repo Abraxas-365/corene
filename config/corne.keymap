@@ -140,7 +140,7 @@
 &none  &kp ESC            &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(PIPE)      &kp EXCLAMATION  &kp AMPS  &kp KP_MULTIPLY  &kp MINUS      &kp EQUAL  &kp BSPC
 &none  &kp DOUBLE_QUOTES  &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &trans           &kp LT    &kp GT           &kp PLUS       &kp COLON  &kp SQT
 &none  &kp APOSTROPHE     &kp POUND    &kp LBKT              &kp RIGHT_BRACKET      &kp GRAVE         &none            &trans    &trans           &kp BACKSLASH  &kp QMARK  &kp TILDE
-                                       &sk LEFT_ALT          &none                  &kp UNDERSCORE    &trans           &trans    &kp RALT
+                                       &sk LEFT_ALT          &kp ESC                &kp UNDERSCORE    &trans           &trans    &kp RALT
             >;
         };
 
