@@ -19,6 +19,7 @@
             flavor = "hold-preferred";
             tapping-term-ms = <150>;
         };
+
         kp_mod: kp_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_MOD";
@@ -28,6 +29,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
         kpmodr: kpmodr {
             compatible = "zmk,behavior-hold-tap";
             label = "KPMODR";
@@ -37,6 +39,7 @@
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
         };
+
         kp_shift: kp_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_SHIFT";
@@ -46,6 +49,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
         };
+
         kp_lt: kp_lt {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_LT";
@@ -54,6 +58,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         stmo: stmo {
             compatible = "zmk,behavior-hold-tap";
             label = "STMO";
@@ -63,6 +68,7 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
+
         kp_stiky: kp_stiky {
             compatible = "zmk,behavior-hold-tap";
             label = "KP_STIKY";
@@ -72,6 +78,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-unless-interrupted";
         };
+
         holdtab2: holdtab2 {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLDTAB2";
@@ -89,6 +96,13 @@
             label = "SPLIT_H";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp MINUS>;
+        };
+
+        let_mut: let_mut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp E &kp T &kp SPACE &kp M &kp U &kp T>;
+            label = "LET_MUT";
         };
     };
 
